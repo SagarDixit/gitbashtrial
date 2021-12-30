@@ -1,0 +1,32 @@
+package testJunit;
+
+import java.util.Scanner;
+
+public class testcalc {
+				
+	Scanner x = new Scanner(System.in);
+	int firstNum = x.nextInt();
+   	
+	Scanner y = new Scanner(System.in);
+   	int secondNum = y.nextInt();
+  
+   	Scanner op = new Scanner(System.in);
+   	String operator = op.nextLine();
+	
+   	if (operator.equals(sum))
+	
+   	{	public int sum(int x, int y) {return x+y; } }
+					
+   	else if (operator.equals(sub))
+   	
+   	{public int sub(int x, int y) {return x-y; } }
+					
+	else if (operator.equals(mul))
+   	
+   	{public int mul(int x, int y) {return x*y; }}
+					
+	else if (operator.equals(div))				
+   	
+	{public int div(int x, int y) {return x/y; }}		
+					
+}

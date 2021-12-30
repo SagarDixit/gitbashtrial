@@ -1,0 +1,21 @@
+package testJunit;
+
+import java.util.Scanner;
+
+public class testcalc {
+				
+					public int sum(int x, int y) {return x+y; }
+					
+					public int sub(int x, int y) {return x-y; }
+					
+					public int mul(int x, int y) {return x*y; }
+					
+					public int div(int x, int y) {return x/y; }		
+					
+					Scanner x = new Scanner(System.in);
+				   	int firstNum = x.nextInt();
+				   	
+					Scanner y = new Scanner(System.in);
+				   	int secondNum = y.nextInt();
+				  
+}
